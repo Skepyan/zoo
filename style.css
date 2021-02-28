@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    line-height: 27px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5{
+    margin: 0;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header{
+    background-color:#F58021;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+.header_navigation{
+    margin-left: auto;
+    margin-right: 138px;
+}
+.header_navigation_menu{
+    display: flex;
+    list-style: none;
+}
+.header_icon_list{
+    display: flex;
+    list-style: none;
+}
+
+.header_navigation_link{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+.header_navigation_link:visited{
+    color: #000000;
+}
+.header_navigation_item + .header_navigation_item{
+    margin-left: 65px;
+}
+.header_icon_link{
+    text-decoration:none;
+}
+.header_icon_item + .header_icon_item{
+    margin-left: 30px;
+}
+.intro{
+    background-image: url(./images/Background_main.png);
+   
+}
+.intro_container{
+    display: flex;
+    flex-direction: column;
+}
+.intro_list{
+    list-style: none;
+}
+h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 82px;
+    line-height: 100px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #00A092;
+    width: 890px;
+    height: 280px;
+    letter-spacing: normal;
+}
+.intro_list_item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    width: 430px;
+    height: 76px;
+}
+.intro_list_item_btn{
+    width: 240px;
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 45px;
+    background-color: #F58021;
+    margin: 0;
+}
+.intro_list_item_text{
+    margin-right: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
