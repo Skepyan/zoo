@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Montserrat', sans-serif;
     color: #000000;
@@ -108,4 +107,81 @@ h1{
     line-height: 22px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.main_welkomZoo,
+.main_howWork{
+    display: flex;
+}
+.main_howWork{
+    margin-bottom: 200px;
+}
+.main_howWork_img,
+.main_welkomZoo_img{
+    max-width: 800px;
+    max-height: 531px;
+}
+.main_howWork_text,
+.main_welkomZoo_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+.main_welkomZoo_part{
+    margin-right: 40px;
+}
+.main_howWork_part{
+    margin-left: 40px;
+}
+.main_howWork{
+    margin-top: 150px;
+}
+.main_welkomZoo_part,
+.main_howWork_part{
+    display: flex;
+    flex-direction: column;
+}
+.main_howWork_topic,
+.main_welkomZoo_topic{
+    color: #00A092;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-transform: uppercase
+}
+.container_donation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color:#FFFFFF;
+}
+.main_donation_part{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+.main_donation{
+    height: 221px;
+    background-color: #20113D;
+}
+.main_donation_topic{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    text-transform: uppercase;
+}
+
+.main_donation_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+.main_donation_textLeft{
+    height: 50px;
+    width: 609px;
 }
