@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    line-height: 27px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5{
+    margin: 0;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header{
+    background-color:#F58021;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+.header_navigation{
+    margin-left: auto;
+    margin-right: 138px;
+}
+.header_navigation_menu{
+    display: flex;
+    list-style: none;
+}
+.header_icon_list{
+    display: flex;
+    list-style: none;
+    
+}
+
+.header_navigation_link{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration:none;
+    text-transform: uppercase;
+    color: #000000;
+}
+.header_navigation_link,
+.header_navigation_link{
+    color: #00A092;
+}
+.header_navigation_link:visited{
+    color: #000000;
+}
+.header_navigation_item + .header_navigation_item{
+    margin-left: 65px;
+}
+.header_icon_link{
+    text-decoration:none;
+}
+.header_icon_item + .header_icon_item{
+    margin-left: 30px;
+}
+.intro{
+    background-image: url(./images/Background_main.png);
+    background-repeat: no-repeat;
+    height: 900px;
+   
+}
+
+.intro_list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 129px;
+    
+}
+h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 82px;
+    line-height: 100px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #00A092;
+    width: 890px;
+    height: 280px;
+    letter-spacing: normal;
+}
+.intro_list_item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    width: 430px;
+    height: 76px;
+}
+.intro_list_item_btn{
+    width: 240px;
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 45px;
+    background-color: #F58021;
+    margin: 0;
+}
+.intro_list_item_text{
+    margin-right: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main_welkomZoo,
+.main_howWork{
+    display: flex;
+}
+.main_howWork{
+    margin-bottom: 200px;
+}
+.main_howWork_img,
+.main_welkomZoo_img{
+    max-width: 800px;
+    max-height: 531px;
+}
+.main_howWork_text,
+.main_welkomZoo_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+.main_welkomZoo_part{
+    margin-right: 40px;
+}
+.main_howWork_part{
+    margin-left: 40px;
+}
+.main_howWork{
+    margin-top: 150px;
+}
+.main_welkomZoo_part,
+.main_howWork_part{
+    display: flex;
+    flex-direction: column;
+}
+.main_howWork_topic,
+.main_welkomZoo_topic{
+    color: #00A092;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-transform: uppercase
+}
+.container_donation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color:#FFFFFF;
+}
+.main_donation_part{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+.main_donation{
+    height: 221px;
+    background-color: #20113D;
+}
+.main_donation_topic{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    text-transform: uppercase;
+}
+
+.main_donation_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+.main_donation_textLeft{
+    height: 50px;
+    width: 609px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact */
+.contactUs_img{
+    max-width: 100%;
+    max-height: 815px;
+}
+.container_contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact_information{
+    display: flex;
+    flex-direction: column;
+}
+.getcontact_block{
+    margin-top: 150px;
+}
+.contact_information_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #00A092;
+}
+.contact_information_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    width: 545px;
+    height: 162px;
+}
+.getform_block{
+    display: flex;
+    flex-direction: column;
+}
+.another_color{
+    color: #00A092;
+    
+}
+.text_form_item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+.contact_form{
+    width: 680px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 17px 0 16px 20px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:#A4A8AE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: Montserrat;
+  
+}
+.contact_form_last{
+    display: flex;
+    width: 680px;
+    height: 200px;
+    border: 1px solid #000000;
+    padding: 17px 0 16px 20px;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:#A4A8AE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: Montserrat;
+}
+.get_form + .get_form{
+    margin-top: 30px;
+    margin-right: 0;
+}
+.send_message{
+    margin-top: 67px;
+    margin-bottom: 150px;
+    width: 359px;
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 45px;
+    background-color: #00A092;
+}
+.send_message_text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+footer{
+background-color: #20113D;
+color: #FFFFFF;
+}
+.footer_navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_information{
+    display: flex;
+    justify-content: space-between;
+}
