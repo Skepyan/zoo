@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5{
 }
 .intro{
     background-image: url(./images/Background_main.png);
+    background-repeat: no-repeat;
     height: 900px;
    
 }
