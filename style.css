@@ -195,3 +195,247 @@ h1{
     height: 50px;
     width: 609px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact */
+.contactUs_img{
+    max-width: 100%;
+    max-height: 815px;
+}
+.container_contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact_information{
+    display: flex;
+    flex-direction: column;
+}
+.getcontact_block{
+    margin-top: 150px;
+}
+.contact_information_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #00A092;
+}
+.contact_information_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    width: 545px;
+    height: 162px;
+}
+.getform_block{
+    display: flex;
+    flex-direction: column;
+}
+.another_color{
+    color: #00A092;
+    
+}
+.text_form_item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+.contact_form{
+    width: 680px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 17px 0 16px 20px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:#A4A8AE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: Montserrat;
+  
+}
+.contact_form_last{
+    display: flex;
+    width: 680px;
+    height: 200px;
+    border: 1px solid #000000;
+    padding: 17px 0 16px 20px;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:#A4A8AE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: Montserrat;
+}
+.get_form + .get_form{
+    margin-top: 30px;
+    margin-right: 0;
+}
+.send_message{
+    margin-top: 67px;
+    margin-bottom: 150px;
+    width: 359px;
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 45px;
+    background-color: #00A092;
+}
+.send_message_text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+footer{
+background-color: #20113D;
+color: #FFFFFF;
+}
+.footer_navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_information{
+    display: flex;
+    justify-content: space-between;
+}
